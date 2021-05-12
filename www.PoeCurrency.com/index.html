@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PoeCurrency</title>
+	<link rel="stylesheet" href="CSS/main.css">
+	<script src="https://kit.fontawesome.com/db717f103e.js" crossorigin="anonymous"></script>
+	<script src="js/script1.js"></script>
+	<style>
+		body {
+			font-family: Montserrat;
+
+
+			
+			
+
+			background: #D1D0D0;
+			background: linear-gradient(to top, #FFFFFF, rgb(95,95,95,0.3));
+		}
+	</style>
+</head>
+<body>
+	  
+
+<div>
+
+	<div class="pc-top" >
+		<div class="pc-bar">
+			<div class="pc-logo">
+				<a >
+
+					<img src="mirror.png" alt="logo" class="logo" style="vertical-align: middle;">
+					
+					<a href="#" class="bar-text" style="vertical-align: middle;" >PoeCurrency</a>
+				</a>
+		    </div>
+		<div  >
+	<input id="toggle" type="checkbox" >
+	<label class="toggle-container" for="toggle" >
+    <span class="button button-toggle" ></span>
+    
+
+    </label id="menu">
+			<div  class="nav" >
+			<a href="#Buy" class="nav-item">Buy</a>
+			<a href="#Sell" class="nav-item" >Sell</a>
+			<a href="#Contact" class="nav-item">Contact</a>
+		    </div>
+		</div >	
+			
+	</div>
+	
+	</div>
+	<div class="main-text">
+		<H2 >Poe Currency</H2>
+		<p>The Best Place where 
+you can Buy & Sell your Currency
+in Path of Exile</p>
+<h3 style="font-size: 25px;font-weight: 300;">Easy to buy and sell your in-game Currency.Select any product and it will be delivered within 5 minutes!</h3>
+<h3>...</h3>
+	</div >
+	<div id="Buy" class="box" >
+		<div class="buy-box">
+			<img class="img" src="chaosorb.png" alt="" width="120" height="120">
+			<H3 class="buy-text">Chaos Orb</H3>
+			<div class="button">
+			<div onclick="chaosMinus()" class="button-r-l" ><H1 class="thin-text">-</H1></div>
+			<div  class="button-middle"><h1 id="chaosCount" class="thin-text">1</h1></div>
+			<div onclick="chaosPlus()" class="button-r-l"><H1 class="thin-text">+</H1></div>
+			</div>
+			<h1 id="chaosPrice" class="text-price">0.1$</h1>
+			<div class="button button_slide slide_left">
+				<h1 id="chaosBuyNow" style="padding: 5px;">BUY NOW</h1>
+			</div>
+
+			
+		</div >
+
+		<div class="buy-box">
+			<img class="img" src="1212.png" alt="" width="120" height="120">
+			<H3 class="buy-text">Exalted Orb</H3>
+			<div class="button">
+			<div onclick="exMinus()" class="button-r-l" ><H1 class="thin-text">-</H1></div>
+			<div class="button-middle"><H1 id="exCount" class="thin-text">1</H1></div>
+			<div onclick="exPlus()" class="button-r-l"><H1 class="thin-text">+</H1></div>
+			</div>
+			<h1 id="exPrice" class="text-price">1 $</h1>
+			<div class="button button_slide slide_left">
+				<h1 style="padding: 5px;">BUY NOW</h1>
+			</div>
+		</div >
+		
+
+		<div class="buy-box">
+			<img class="img" src="CSS\images\Mirror_of_Kalandra_inventory_icon.png" alt="" width="120" height="120">
+			<H3 class="buy-text">Mirror</H3>
+			<div class="button">
+			<div onclick="mirMinus()" class="button-r-l" ><H1 class="thin-text">-</H1></div>
+			<div class="button-middle"><H1 id="mirCount" class="thin-text">1</H1></div>
+			<div onclick="mirPlus()" class="button-r-l"><H1 class="thin-text">+</H1></div>
+			</div>
+			<h1 id="mirPrice" class="text-price">249 $</h1>
+			<div class="button button_slide slide_left">
+				<h1 style="padding: 5px;">BUY NOW</h1>
+			</div>
+		</div >
+		
+	</div>
+
+	
+	</div>
+	<video autoplay muted loop id="myVideo">
+        <source src="poevidbg.mp4" type="video/mp4">
+    </video>
+	<div class="sell-page-img ">
+
+		<div class="hh-block ">
+			<div class="hh-space">
+			<h1 id="Sell"class="sell-bg hh-text" >SELL YOUR CURRENCY</h1>
+			<div >
+				<h1 class="hh-text">We are looking for a lot of currency</h1>
+				<img class="img-line" src="css/images/unic-line.png"  alt="">
+				<img class="hh" src="Headhunter_inventory_icon.png"  alt="">
+
+			</div>
+		</div>
+	</div>
+				
+
+	</div>
+			<img style="float:right;" class="exalted-right" src="exright.png"  alt="">
+			<img style="float:left;" class="exalted-left" src="exleft.png"  alt="">
+		</div>
+		<div class="sell-page-text">
+			<H1 class="contact-text-sell" >SELL TO US</H1>
+			<H2 class="contact-text-sell-thin" >If you have extra game currency and want to earn some money, you can sell to us. About the current price and the information of exchange, please contact our customer service for more details.</H2>
+			<H1 id="Contact" class="contact-text-sell" >HOW TO CONTACT US</H1>
+			<H2 class="contact-text-sell-thin" >There are three methods you can contact us to sell:</H2>
+		</div>
+
+	</div>
+	<section class="contact">
+		<div class="contact-content">
+			
+		<div class="contact-container">
+			<div class="contact-info">
+				<div class="contact-box">
+					<div class="contact-icon"><i class="fas fa-map-marked"></i></div>
+					<div class="contact-text">
+						<h3>Address</h3>
+						<p>Shevchenka 69, <br>Lviv,<br>79059,</p>
+					</div>
+				</div>
+				<div class="contact-box">
+					<div class="contact-icon"><i class="fas fa-phone"></i></div>
+					<div class="contact-text">
+						<h3>Phone</h3>
+						<p>+380666666666</p>
+					</div>
+				</div>
+				<div class="contact-box">
+					<div class="contact-icon"><i class="fas fa-envelope"></i></div>
+					<div class="contact-text">
+						<h3>Email</h3>
+						<p>poecurrency@gmai.com</p>
+					</div>
+				</div>
+			</div>
+				<div class="contactForm">
+				<form action="">
+					<h2 style="overflow-wrap: break-word;">Send Message</h2>
+					<div class="inputBox">
+					   <input type="text" name="" required="required">
+					   <span>Full Name</span>
+					</div>
+					<div class="inputBox">
+					   <input type="text" name="" required="required">
+					   <span>Email</span>
+					</div>
+					<div class="inputBox">
+					   <textarea required="required" ></textarea>
+					   <span>Type your message</span>
+					</div>
+					<div class="inputBox">
+					   <input type="submit" name="" value="Send">
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<div class="footer">
+		<div style="display: flex;align-items: center;">
+	    	    <img class="footer-mirror" src="mirrorblack.png"  alt="mirror">
+	    	    <div>
+	    		    <h1 class="footer-rights">© Copyright 2020-2021, PoeCurrency All Rights Reserved.</h1>
+	                <h1 ></h1> 
+	    	   </div>
+			 <!-- <div class="footer-div">
+			    <img class="footer-icons" src="telegram.png" alt="telegram">
+		        <h1 class="footer-text">+380666666666</h1>
+             </div>
+		     <div class="footer-div">
+			    <img class="footer-icons" src="gmail.png" alt="gmail">
+		        <h1 class="footer-text">poecurrency@gmai.com</h1>
+		     </div>
+		</div> -->
+		
+	        
+	 
+	<div>
+		
+
+	</div>
+
+
+    
+</body>
+</html>
